@@ -91,13 +91,13 @@
             margin-top: 2px;
         }
 
-        /* Header - Mobile Optimized */
+        /* Header - Simplified Mobile */
         .main-header {
             position: relative;
             display: block;
             z-index: 999;
             width: 100%;
-            padding: 15px 15px;
+            padding: 20px 15px;
             margin-top: 52px;
             background-color: var(--light-green);
         }
@@ -110,10 +110,9 @@
 
         .header-upper .auto-container {
             display: flex;
-            flex-direction: column;
+            justify-content: center;
             align-items: center;
             text-align: center;
-            gap: 15px;
             max-width: 100%;
             padding: 0 15px;
         }
@@ -131,7 +130,7 @@
         }
 
         .logo a {
-            font-size: 20px;
+            font-size: 24px;
             font-weight: 700;
             color: var(--primary-green);
             text-decoration: none;
@@ -139,16 +138,7 @@
         }
 
         .nav-outer {
-            position: relative;
-            width: 100%;
-        }
-
-        .header-cta {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            width: 100%;
-            max-width: 320px;
+            display: none;
         }
 
         /* Buttons - Mobile Optimized */
@@ -895,12 +885,6 @@
                 gap: 8px;
             }
             
-            .header-upper .auto-container {
-                flex-direction: column;
-                text-align: center;
-                gap: 15px;
-            }
-            
             .hero h1 {
                 font-size: 36px;
             }
@@ -944,25 +928,8 @@
         }
 
         @media (min-width: 769px) {
-            .header-upper .auto-container {
-                flex-direction: row;
-                justify-content: space-between;
-            }
-
             .logo a {
-                font-size: 24px;
-            }
-
-            .header-cta {
-                flex-direction: row;
-                max-width: none;
-            }
-
-            .btn-style-one,
-            .btn-style-two,
-            .btn-style-three {
-                width: auto;
-                display: inline-block;
+                font-size: 28px;
             }
             
             .hero h1 {
@@ -1024,13 +991,6 @@
                 <div class="logo-box">
                     <div class="logo">
                         <a href="#">VISIONGROVE™</a>
-                    </div>
-                </div>
-                
-                <div class="nav-outer">
-                    <div class="header-cta">
-                        <a href="https://square.link/u/9kwtY22O" class="btn-style-one" target="_blank">Purchase Now - $797</a>
-                        <a href="https://calendly.com/wells-visiongrovecreative/consultation" class="btn-style-two" target="_blank">Free Consultation</a>
                     </div>
                 </div>
             </div>
